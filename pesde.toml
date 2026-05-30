@@ -1,0 +1,29 @@
+name = "idkaboutbytes/adorneedata"
+version = "1.0.4"
+description = "Adorneedata package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/adorneedata"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src"
+build_files = ["src"]
+
+[dependencies]
+RxSignal = { repo = "idkaboutbytes/rxsignal", rev = "v1.0.3" }
+Observable = { repo = "idkaboutbytes/observable", rev = "v1.0.2" }
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.5" }
+AttributeUtils = { repo = "idkaboutbytes/attributeutils", rev = "v1.1.2" }
+AttributeValue = { repo = "idkaboutbytes/attributevalue", rev = "v1.0.5" }
+Defaultvalueutils = { repo = "idkaboutbytes/defaultvalueutils", rev = "v1.0.4" }
+DuckTypeUtils = { repo = "idkaboutbytes/ducktypeutils", rev = "v1.0.5" }
+Rx = { repo = "idkaboutbytes/rx", rev = "v1.0.5" }
+ValueObject = { repo = "idkaboutbytes/valueobject", rev = "v1.0.6" }
