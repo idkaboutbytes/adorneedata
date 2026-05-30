@@ -1,0 +1,3 @@
+--!nonstrict
+
+return require("./AdorneeData")
